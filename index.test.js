@@ -41,7 +41,7 @@ describe('[Exercise 2] trimPropertiesMutation', () => {
   describe('[Exercise 4] Counter', () => {
     let counter
     beforeEach(() => {
-      counter = new utils.Counter(3) // each test must start with a fresh couter
+      counter = new utils.Counter(4) // each test must start with a fresh couter
     })
     // test('[6] the FIRST CALL of counter.countDown returns the initial count', () => {})
     // test('[7] the SECOND CALL of counter.countDown returns the initial count minus one', () => {})
